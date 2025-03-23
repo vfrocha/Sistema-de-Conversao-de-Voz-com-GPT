@@ -53,4 +53,4 @@ Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
 
 ## Relatório
 
-[Link para o relatório]([https://youtu.be/U-JZMP6p7tI](https://github.com/vfrocha/Sistema-de-Conversao-de-Voz-com-GPT/blob/main/paper.pdf))
+[Link para o relatório](https://github.com/vfrocha/Sistema-de-Conversao-de-Voz-com-GPT/blob/main/paper.pdf)
