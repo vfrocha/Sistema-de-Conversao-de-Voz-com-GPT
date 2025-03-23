@@ -32,7 +32,7 @@ O sistema opera diretamente no Google Colab, o que facilita o acesso e a execuç
 
 ## Como Usar no Google Colab
 
-1. Acesse o [notebook do Google Colab](#) e execute as células para rodar o sistema.
+1. Acesse o [notebook do Google Colab](https://colab.research.google.com/drive/1X8tVAKdJyhdgOnTGtgWfoX4O4T8Ft85y?usp=drive_link) e execute as células para rodar o sistema.
 2. Certifique-se de ter permissões adequadas para usar as APIs do **Grok** e **DeepSeek**.
 3. Siga os passos no notebook para enviar áudio e ouvir a resposta gerada.
 
@@ -40,7 +40,7 @@ O sistema opera diretamente no Google Colab, o que facilita o acesso e a execuç
 
 Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
 
-[Link para o vídeo de demonstração](#)
+[Link para o vídeo de demonstração](https://youtu.be/U-JZMP6p7tI)
 
 ## Requisitos
 
@@ -49,7 +49,3 @@ Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
 - Biblioteca `whisper` para transcrição de fala
 - Biblioteca `gTTS` para conversão de texto em fala
 - Conexão com a internet para acessar as APIs
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
