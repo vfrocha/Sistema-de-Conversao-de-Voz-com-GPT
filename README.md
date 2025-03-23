@@ -50,3 +50,7 @@ Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
 - Biblioteca `whisper` para transcrição de fala
 - Biblioteca `gTTS` para conversão de texto em fala
 - Conexão com a internet para acessar as APIs
+
+## Relatório
+
+[Link para o relatório]([https://youtu.be/U-JZMP6p7tI](https://github.com/vfrocha/Sistema-de-Conversao-de-Voz-com-GPT/blob/main/paper.pdf))
