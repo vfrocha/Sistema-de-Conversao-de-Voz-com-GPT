@@ -1,6 +1,7 @@
 # Sistema de Conversão de Voz com GPT
 
 Repositório para o trabalho da disciplina de Tópicos Especiais em Computação
+
 Higor D. Oliveira, Kaique S. Passos, Victor F. Rocha
 
 Este é um sistema completo de conversão de voz em texto, interação com um modelo de linguagem e conversão do texto gerado de volta em fala, utilizando tecnologias de ponta como **Whisper**, **Grok API**, **DeepSeek**, e **gTTS**. O sistema funciona de maneira totalmente integrada no **Google Colab**, facilitando o uso sem a necessidade de configurações locais complicadas.
