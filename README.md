@@ -26,7 +26,7 @@ Com isso, é possível criar uma interface de voz natural e interativa usando mo
 
 O sistema opera diretamente no Google Colab, o que facilita o acesso e a execução do código sem a necessidade de instalar dependências localmente. Para usar:
 
-1. **Passo 1**: Grave ou faça upload de um arquivo de áudio.
+1. **Passo 1**: Gravação de audio através do Colab.
 2. **Passo 2**: O áudio é processado pelo **Whisper** para transcrição em texto.
 3. **Passo 3**: O texto é enviado para a **API do Grok**, que gera uma resposta inteligente.
 4. **Passo 4**: A resposta é convertida em áudio novamente utilizando o **gTTS** e reproduzida.
