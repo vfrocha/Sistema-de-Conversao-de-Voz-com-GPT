@@ -7,6 +7,11 @@ Higor D. Oliveira, Kaique S. Passos, Victor F. Rocha
 - [Descrição](#descricao)
 - [Funcionalidades](#funcionalidades)
 - [Como funciona](#como-funciona)
+- [Como Usar no Google Colab](#como-usar-no-google-colab)
+- [Demonstração no Collab](#demonstração-no-collab)
+- [Requisitos Collab](#como-funciona)
+- [Instalação na versão Ubuntu](#instalação-na-versão-ubuntu)
+- [Link para Relatório](#relatório)
 
 Este é um sistema completo de conversão de voz em texto, interação com um modelo de linguagem e conversão do texto gerado de volta em fala, utilizando tecnologias de ponta como **Whisper**, **Grok API**, **DeepSeek**, e **gTTS**. O sistema funciona de maneira totalmente integrada no **Google Colab**, facilitando o uso sem a necessidade de configurações locais complicadas.
 
@@ -41,19 +46,33 @@ O sistema opera diretamente no Google Colab, o que facilita o acesso e a execuç
 2. Certifique-se de ter permissões adequadas para usar as APIs do **Grok** e **DeepSeek**.
 3. Siga os passos no notebook para enviar áudio e ouvir a resposta gerada.
 
-## Demonstração
+## Demonstração No Collab
 
 Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
 
 [Link para o vídeo de demonstração](https://youtu.be/f3TB-Pr63QU)
 
-## Requisitos
+## Requisitos no Collab
 
 - Google Colab
 - Conta na API do Grok
 - Biblioteca `whisper` para transcrição de fala
 - Biblioteca `gTTS` para conversão de texto em fala
 - Conexão com a internet para acessar as APIs
+
+## Instalação na versão Ubuntu
+
+  Você vai precisar da cuDNN para rodar o script. Siga as instruções de instalação no site oficial. O link a seguir já está selecionado para Ubuntu 24.04
+
+  https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=deb_local
+
+  Para instalar os pacotes necessários:
+
+    pip install -r requirements.txt
+
+  Para rodar o script
+  
+    python3 VoiceGPT.py
 
 ## Relatório
 
