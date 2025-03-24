@@ -11,6 +11,8 @@ Higor D. Oliveira, Kaique S. Passos, Victor F. Rocha
 - [Demonstração no Collab](#demonstração-no-collab)
 - [Requisitos Collab](#como-funciona)
 - [Instalação na versão Ubuntu](#instalação-na-versão-ubuntu)
+- [Demonstração no Ubuntu](#demonstração-no-ubuntu)
+
 - [Link para Relatório](#relatório)
 
 Este é um sistema completo de conversão de voz em texto, interação com um modelo de linguagem e conversão do texto gerado de volta em fala, utilizando tecnologias de ponta como **Whisper**, **Grok API**, **DeepSeek**, e **gTTS**. O sistema funciona de maneira totalmente integrada no **Google Colab**, facilitando o uso sem a necessidade de configurações locais complicadas.
@@ -73,6 +75,12 @@ Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
   Para rodar o script
   
     python3 VoiceGPT.py
+
+## Demonstração No Ubuntu
+
+Demonstração do fluxo de conversa no Ubuntu
+
+[Link do vídeo](https://youtu.be/OlKZTT0qIfY)
 
 ## Relatório
 
