@@ -12,7 +12,7 @@ Este sistema é projetado para realizar a conversão de voz em texto, interagir 
 
 1. **Whisper** (da OpenAI) para transcrever a fala do usuário em texto.
 2. **Grok API** para interagir com o modelo de linguagem da DeepSeek e gerar respostas inteligentes.
-3. **Edge-TTS (Edge Text-to-Speech)** para converter a resposta gerada em texto novamente para fala.
+3. **gTTS (Google Text-to-Speech)** para converter a resposta gerada em texto novamente para fala.
 
 Com isso, é possível criar uma interface de voz natural e interativa usando modelos de IA e voz.
 
@@ -20,7 +20,7 @@ Com isso, é possível criar uma interface de voz natural e interativa usando mo
 
 - **Conversão de Fala em Texto**: A entrada de voz do usuário é convertida em texto utilizando a tecnologia **Whisper**.
 - **Geração de Respostas Inteligentes**: O texto gerado é processado pela **API do Grok**, que utiliza o modelo de linguagem da **DeepSeek** para gerar respostas.
-- **Conversão de Texto em Fala**: A resposta gerada pelo modelo é convertida de volta em fala usando a **Edge-TTS**.
+- **Conversão de Texto em Fala**: A resposta gerada pelo modelo é convertida de volta em fala usando a **gTTS**.
 
 ## Como Funciona
 
@@ -29,7 +29,7 @@ O sistema opera diretamente no Google Colab, o que facilita o acesso e a execuç
 1. **Passo 1**: Gravação de audio através do Colab.
 2. **Passo 2**: O áudio é processado pelo **Whisper** para transcrição em texto.
 3. **Passo 3**: O texto é enviado para a **API do Grok**, que gera uma resposta inteligente.
-4. **Passo 4**: A resposta é convertida em áudio novamente utilizando o **Edge-TTS** e reproduzida.
+4. **Passo 4**: A resposta é convertida em áudio novamente utilizando o **gTTS** e reproduzida.
 
 ## Como Usar no Google Colab
 
@@ -48,7 +48,7 @@ Confira uma demonstração do sistema em funcionamento no seguinte vídeo:
 - Google Colab
 - Conta na API do Grok
 - Biblioteca `whisper` para transcrição de fala
-- Biblioteca `Edge-TTS` para conversão de texto em fala
+- Biblioteca `gTTS` para conversão de texto em fala
 - Conexão com a internet para acessar as APIs
 
 ## Relatório
