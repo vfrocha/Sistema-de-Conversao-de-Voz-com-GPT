@@ -4,9 +4,13 @@ Repositório para o trabalho da disciplina de Tópicos Especiais em Computação
 
 Higor D. Oliveira, Kaique S. Passos, Victor F. Rocha
 
+- [Descrição](#descricao)
+- [Funcionalidades](#funcionalidades)
+- [Como funciona](#como-funciona)
+
 Este é um sistema completo de conversão de voz em texto, interação com um modelo de linguagem e conversão do texto gerado de volta em fala, utilizando tecnologias de ponta como **Whisper**, **Grok API**, **DeepSeek**, e **gTTS**. O sistema funciona de maneira totalmente integrada no **Google Colab**, facilitando o uso sem a necessidade de configurações locais complicadas.
 
-## Descrição
+  ## Descricao
 
 Este sistema é projetado para realizar a conversão de voz em texto, interagir com um modelo de linguagem, e transformar a resposta em texto de volta para voz. Ele utiliza:
 
@@ -16,13 +20,13 @@ Este sistema é projetado para realizar a conversão de voz em texto, interagir 
 
 Com isso, é possível criar uma interface de voz natural e interativa usando modelos de IA e voz.
 
-## Funcionalidades
+  ## Funcionalidades
 
 - **Conversão de Fala em Texto**: A entrada de voz do usuário é convertida em texto utilizando a tecnologia **Whisper**.
 - **Geração de Respostas Inteligentes**: O texto gerado é processado pela **API do Grok**, que utiliza o modelo de linguagem da **DeepSeek** para gerar respostas.
 - **Conversão de Texto em Fala**: A resposta gerada pelo modelo é convertida de volta em fala usando a **gTTS**.
 
-## Como Funciona
+  ## Como Funciona
 
 O sistema opera diretamente no Google Colab, o que facilita o acesso e a execução do código sem a necessidade de instalar dependências localmente. Para usar:
 
